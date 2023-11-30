@@ -26,12 +26,12 @@
                     <div class="employment__title">Определим вектор карьерного развития</div>
                     <div class="employment__item-wrapper">
                         <div class="employment__item">
-                            <div class="employment__item-icon"></div>
+                            <div class="employment__item-icon icon-trending"></div>
                             <div class="employment__item-title">Индивидуальная траектория развития</div>
                             <div class="employment__item-text">Построение индивидуальной траектории развития карьеры</div>
                         </div>
                         <div class="employment__item">
-                            <div class="employment__item-icon"></div>
+                            <div class="employment__item-icon icon-subject"></div>
                             <div class="employment__item-title">Резюме</div>
                             <div class="employment__item-text">
                                 Чек-лист по написанию сопроводительного письма<br><br>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="employment__item">
-                            <div class="employment__item-icon"></div>
+                            <div class="employment__item-icon icon-search"></div>
                             <div class="employment__item-title">Вакансии</div>
                             <div class="employment__item-text">
                                 Актуальные платформы для поиска работы<br><br>
@@ -47,12 +47,12 @@
                             </div>
                         </div>
                         <div class="employment__item">
-                            <div class="employment__item-icon"></div>
+                            <div class="employment__item-icon icon-work"></div>
                             <div class="employment__item-title">Перечень работодателей</div>
                             <div class="employment__item-text"></div>
                         </div>
                         <div class="employment__item">
-                            <div class="employment__item-icon"></div>
+                            <div class="employment__item-icon icon-article"></div>
                             <div class="employment__item-title">Полезные статьи</div>
                             <div class="employment__item-text"></div>
                         </div>

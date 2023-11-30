@@ -27,17 +27,17 @@
 					<div class="scholarship__item">
 						<div class="scholarship__item-text">
 							Академическая стипендия: <br>
-							Хорошист — <span>2 511 рб.</span>, Отличник — <span>3 348 рб.</span>
+							Хорошист — <span>1 940 рб.</span>, Отличник — <span>5 607 рб.</span>
 						</div>
 					</div>
 					<div class="scholarship__item">
 						<div class="scholarship__item-text">
-							Социальная стипендия: <span>2 511 рб.</span>
+							Социальная стипендия: <span>2 910 рб.</span>
 						</div>
 					</div>
 					<div class="scholarship__item">
 						<div class="scholarship__item-text">
-							Льготное питание: <span>99,40 рб.</span> <p>(в день)</p>
+							Льготное питание: <span>112,80 рб.</span> <p>(в день)</p>
 						</div>
 					</div>
 				</div>
@@ -46,7 +46,7 @@
 					<div class="scholarship__item-block">
 						<div class="scholarship__item-02">
 							<div class="scholarship__item-text">
-								Питание в день: <span>440 рб.</span>
+								Питание в день: <span>500 рб.</span>
 							</div>
 						</div>
 						<div class="scholarship__item-02">
@@ -58,7 +58,7 @@
 					<div class="scholarship__item-block">
 						<div class="scholarship__item-02">
 							<div class="scholarship__item-text">
-								Мягкий инвентарь: Юноши — <span>5 971 рб.</span>, Девушки — <span>6 171 рб.</span>
+								Мягкий инвентарь: Юноши — <span>5 879 рб.</span>, Девушки — <span>6 613 рб.</span>
 							</div>
 						</div>
 						<div class="scholarship__item-02">
@@ -70,12 +70,12 @@
 					<div class="scholarship__item-block">
 						<div class="scholarship__item-02">
 							<div class="scholarship__item-text">
-								Моющие средства: <span>525 рб.</span>
+								Моющие средства: <span>417 рб.</span>
 							</div>
 						</div>
 						<div class="scholarship__item-02">
 							<div class="scholarship__item-text">
-								Обмундирование при выпуске: Юноши — <span>140 375 рб.</span>, Девушки — <span>148 255 рб.</span>
+								Обмундирование при выпуске: Юноши — <span>130 611 рб.</span>, Девушки — <span>139 892 рб.</span>
 							</div>
 						</div>
 					</div>

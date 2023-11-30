@@ -203,7 +203,7 @@
     </div>
   </div>
 
-  <a href="/archive.html" class={currentHead === 'head-04' ? '__archive active' : '__archive'}>Архив</a>
+  <a href="/archive" class={currentHead === 'head-04' ? '__archive active' : '__archive'}>Архив</a>
 </div>
 
 <div class="study__content-wrapper">

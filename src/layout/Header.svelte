@@ -15,8 +15,8 @@
     }
 
     function menuitemActive() {
-        // menuitem_active_01 = !menuitem_active_01
-        menuitem_active_02 = !menuitem_active_02
+        menuitem_active_01 = !menuitem_active_01
+        // menuitem_active_02 = !menuitem_active_02
         // menuitem_active_03 = !menuitem_active_03
         // menuitem_active_04 = !menuitem_active_04
     }
@@ -44,54 +44,70 @@
 
                 <div class="header__navigation-block" class:menuitem_active_01>
                     <div class="header__navigation-block-wrapper">
-                        <li aria-current={$page.url.pathname === '/osnovnyye-svedeniya' ? 'page' : undefined}>
-                            <a href="/osnovnyye-svedeniya" class="header__navigation-block-item">Основные сведения</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/struktura-i-organy' ? 'page' : undefined}>
-                            <a href="/struktura-i-organy" class="header__navigation-block-item">Структура и органы управления<br> образовательной организацией</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/dokumenty' ? 'page' : undefined}>
-                            <a href="/dokumenty" class="header__navigation-block-item">Документы</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/obrazovaniye' ? 'page' : undefined}>
-                            <a href="/obrazovaniye" class="header__navigation-block-item">Образование</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/rukovodstvo' ? 'page' : undefined}>
-                            <a href="/rukovodstvo" class="header__navigation-block-item">Руководство. Педагогически<br> (научно-педагогический) состав</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/materialno-tekhnicheskoye-obespecheniye' ? 'page' : undefined}>
-                            <a href="/materialno-tekhnicheskoye-obespecheniye" class="header__navigation-block-item">Материально-техническое обеспечение и <br> оснащенность образовательного процесса</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/stipendiya' ? 'page' : undefined}>
-                            <a href="/stipendiya" class="header__navigation-block-item">Стипендии и меры поддержки<br> обучающихся</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/kursy' ? 'page' : undefined}>
-                            <a href="/kursy" class="header__navigation-block-item">Платные образовательные услуги</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/finansovo-khozyaystvennaya' ? 'page' : undefined}>
-                            <a href="/finansovo-khozyaystvennaya" class="header__navigation-block-item">Финансово-хозяйственная деятельность</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/mesta-dlya-priyema' ? 'page' : undefined}>
-                            <a href="/mesta-dlya-priyema" class="header__navigation-block-item">Вакантные места для приема (перевода)<br> обучающихся</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/dostupnaya-sreda' ? 'page' : undefined}>
-                            <a href="/dostupnaya-sreda" class="header__navigation-block-item">Доступная среда</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/mezhdunarodnoye-sotrudnichestvo' ? 'page' : undefined}>
-                            <a href="/mezhdunarodnoye-sotrudnichestvo" class="header__navigation-block-item">Международное сотрудничество</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/obrazovatelnyye-programmy' ? 'page' : undefined}>
-                            <a href="/obrazovatelnyye-programmy" class="header__navigation-block-item">Образовательные программы</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/pitaniya' ? 'page' : undefined}>
-                            <a href="/pitaniya" class="header__navigation-block-item">Организация питания в образовательной<br> организации</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/obrazovatelnaya-sreda' ? 'page' : undefined}>
-                            <a href="/obrazovatelnaya-sreda" class="header__navigation-block-item">Цифровая образовательная среда</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/partnerstvo' ? 'page' : undefined}>
-                            <a href="/partnerstvo" class="header__navigation-block-item">Социальное партнерство</a>
-                        </li>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/osnovnyye-svedeniya' ? 'page' : undefined}>
+                                <a href="/osnovnyye-svedeniya" class="header__navigation-block-item">Основные сведения</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/struktura-i-organy' ? 'page' : undefined}>
+                                <a href="/struktura-i-organy" class="header__navigation-block-item">Структура и органы управления<br> образовательной организацией</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/dokumenty' ? 'page' : undefined}>
+                                <a href="/dokumenty" class="header__navigation-block-item">Документы</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/obrazovaniye' ? 'page' : undefined}>
+                                <a href="/obrazovaniye" class="header__navigation-block-item">Образование</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/rukovodstvo' ? 'page' : undefined}>
+                                <a href="/rukovodstvo" class="header__navigation-block-item">Руководство. Педагогически<br> (научно-педагогический) состав</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/materialno-tekhnicheskoye-obespecheniye' ? 'page' : undefined}>
+                                <a href="/materialno-tekhnicheskoye-obespecheniye" class="header__navigation-block-item">Материально-техническое обеспечение и <br> оснащенность образовательного процесса</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/stipendiya' ? 'page' : undefined}>
+                                <a href="/stipendiya" class="header__navigation-block-item">Стипендии и меры поддержки<br> обучающихся</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/kursy' ? 'page' : undefined}>
+                                <a href="/kursy" class="header__navigation-block-item">Платные образовательные услуги</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/finansovo-khozyaystvennaya' ? 'page' : undefined}>
+                                <a href="/finansovo-khozyaystvennaya" class="header__navigation-block-item">Финансово-хозяйственная деятельность</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/mesta-dlya-priyema' ? 'page' : undefined}>
+                                <a href="/mesta-dlya-priyema" class="header__navigation-block-item">Вакантные места для приема (перевода)<br> обучающихся</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/dostupnaya-sreda' ? 'page' : undefined}>
+                                <a href="/dostupnaya-sreda" class="header__navigation-block-item">Доступная среда</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/mezhdunarodnoye-sotrudnichestvo' ? 'page' : undefined}>
+                                <a href="/mezhdunarodnoye-sotrudnichestvo" class="header__navigation-block-item">Международное сотрудничество</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/obrazovatelnyye-programmy' ? 'page' : undefined}>
+                                <a href="/obrazovatelnyye-programmy" class="header__navigation-block-item">Образовательные программы</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/pitaniya' ? 'page' : undefined}>
+                                <a href="/pitaniya" class="header__navigation-block-item">Организация питания в образовательной<br> организации</a>
+                            </li>
+                        </div>
+                        <div class="header__navigation-item-wrapper">
+                            <li aria-current={$page.url.pathname === '/obrazovatelnaya-sreda' ? 'page' : undefined}>
+                                <a href="/obrazovatelnaya-sreda" class="header__navigation-block-item">Цифровая образовательная среда</a>
+                            </li>
+                            <li aria-current={$page.url.pathname === '/partnerstvo' ? 'page' : undefined}>
+                                <a href="/partnerstvo" class="header__navigation-block-item">Социальное партнерство</a>
+                            </li>
+                        </div>
                     </div>
                 </div>   
                 </li>
@@ -175,7 +191,7 @@
                 </div>
             </div>
             <div class="header__menu" on:click={menuActive}>
-                <div class="header__menu-icon"></div>
+                <div class="header__menu-icon icon-menu"></div>
             </div>
         </div>
     </div>

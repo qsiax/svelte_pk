@@ -1,6 +1,7 @@
 .prof {
 
     &__container {
+        overflow: visible;
     }
 
     &__body {
@@ -56,6 +57,14 @@
         padding: 40px;
         cursor: pointer;
         transition: .3s ease;
+        &:hover {
+            background: $primary-color;
+            border: $primary-color;
+            transform: scale(1.05);
+            * {
+                color: $main-color;
+            }
+        }
         @media (max-width: $m-point) {
             width: 100%;
             padding: 20px;
@@ -69,15 +78,11 @@
     }
 
     &__item-icon-special {
-        width: 64px;
-        height: 64px;
-        background: url(/source/trending.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
+        font-size: 64px;
         margin-bottom: 20px;
+        color: $primary-color;
         @media (max-width: $m-point) {
-            width: 50px;
-            height: 50px;
+            font-size: 50px;
             margin-bottom: 10px;
         }
     }

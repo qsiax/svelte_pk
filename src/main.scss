@@ -78,6 +78,9 @@ body {
 	width: 454px;
 	height: 128px;
 	overflow: hidden;
+	@media (max-width: 600px) {
+		width: 254px;
+	}
 }
 
 .overlay-preloader-logo {
@@ -87,50 +90,12 @@ body {
 	letter-spacing: -0.03em;
 	color: $main-color;
 	transform: translateX(-100%);
+	@media (max-width: 600px) {
+		font-weight: 800;
+		font-size: 32px;
+	}
 }
 
 .mb1250 {
 	margin-bottom: 1250px;
 }
-
-
-// // Import
-// @import '_header';
-// @import '_carousel';
-// @import '_home';
-// @import '_about';
-// @import '_news';
-// @import '_directions';
-// @import '_contact';
-// @import '_partners';
-// @import '_footer';
-
-// // Page Import
-// @import '_about-page';
-// @import '_document-page';
-// @import '_study-page';
-// @import '_hostel-page';
-// @import '_schedule-page';
-// @import '_course-page';
-// @import '_founders-page';
-// @import '_management-page';
-// @import '_educational-page';
-// @import '_library-page';
-// @import '_scholarship-page';
-// @import '_logistics-page';
-// @import '_economic-page';
-// @import '_reception-page';
-// @import '_accessible-page';
-// @import '_social-page';
-// @import '_digital-page';
-// @import '_rules-page';
-// @import '_profession-page';
-// @import '_targeted-page';
-// @import '_rating-page';
-// @import '_student-page';
-// @import '_welfare-page';
-// @import '_employment-page';
-// @import '_catering-page';
-// @import '_international-page';
-// @import '_basic-page';
-// @import '_prof-page';

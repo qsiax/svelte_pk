@@ -82,12 +82,16 @@
     &__item {
         border-radius: 20px;
         border: 1px solid $text-secondary;
-        width: 204px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding-left: 20px;
         padding-top: 40px;
         height: 255px;
+        margin-right: 18px;
+        &:last-child {
+            margin-right: 0;
+        }
         @media (max-width: $m-point) {
             min-width: 103px;
             height: 75px;

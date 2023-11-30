@@ -48,19 +48,16 @@
 						<div class="reception__item">
 							<div class="reception__item-title">Форма обучения</div>
 						</div>
-						<div class="reception__item">
-							<div class="reception__item-title">Кол-во<br> мест</div>
-						</div>
 					</div>
 					<div class="reception__item-wrapper">
 						<div class="reception__item">
-							<div class="reception__item-title">09.02.01</div>
+							<div class="reception__item-title">43.02.16</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">Компьютерные системы и комплексы</div>
+							<div class="reception__item-title">Туризм и гостеприимство</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">Специалист по компьютерным системам</div>
+							<div class="reception__item-title">Специалист по туризму и гостеприимству</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">Среднее<br> общее образование</div>
@@ -73,9 +70,6 @@
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">Очная</div>
-						</div>
-						<div class="reception__item">
-							<div class="reception__item-title">1</div>
 						</div>
 					</div>
 					<div class="reception__item-wrapper">
@@ -92,24 +86,16 @@
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
-								Программист/
-								разработчик
-								веб приложе-
-								ний
+								Программист
 							</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
-								Основное
-								общее
-								образование/
-								среднее<br>
-								общее
-								образование
+								Среднее<br> общее образование
 							</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">3</div>
+							<div class="reception__item-title">1</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
@@ -119,42 +105,29 @@
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">Очная</div>
-						</div>
-						<div class="reception__item">
-							<div class="reception__item-title">3</div>
 						</div>
 					</div>
 					<div class="reception__item-wrapper">
 						<div class="reception__item">
-							<div class="reception__item-title">10.02.01</div>
+							<div class="reception__item-title">09.02.01</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
-								Организация и
-								технология 
-								защиты 
-								информации
+								Компьютерные системы и комплексы
 							</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
-								Техник по за-
-								щите информа-
-								ции
+								Специалист по компьютерным системам
 							</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
-								Основное
-								общее
-								образование/
-								среднее<br>
-								общее
-								образование
+								Среднее<br> общее образование
 							</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">3</div>
+							<div class="reception__item-title">1</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">
@@ -165,8 +138,72 @@
 						<div class="reception__item">
 							<div class="reception__item-title">Очная</div>
 						</div>
+					</div>
+					<div class="reception__item-wrapper">
 						<div class="reception__item">
-							<div class="reception__item-title">3</div>
+							<div class="reception__item-title">09.02.07</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Информацион-
+								ные системы и
+								программиро-
+								вание
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Программист
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Среднее<br> общее образование
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">2</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								3 года 10мес/<br>
+								2 года 10 мес
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
+						</div>
+					</div>
+					<div class="reception__item-wrapper">
+						<div class="reception__item">
+							<div class="reception__item-title">09.02.01</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Компьютерные системы и комплексы
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Специалист по компьютерным системам
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Среднее<br> общее образование
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">2</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								3 года 10мес/<br>
+								2 года 10 мес
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
 						</div>
 					</div>
 					<div class="reception__item-wrapper">
@@ -177,29 +214,120 @@
 							<div class="reception__item-title">Туризм</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">
-								Специалист по
-								туризму
-							</div>
+							<div class="reception__item-title">Специалист по туризму</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">
-								Среднее <br>
-								общее
-								образование
-							</div>
+							<div class="reception__item-title">Среднее<br> общее образование</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">2</div>
 						</div>
 						<div class="reception__item">
-							<div class="reception__item-title">1 год 10 мес</div>
+							<div class="reception__item-title">3 года 10 мес</div>
 						</div>
 						<div class="reception__item">
 							<div class="reception__item-title">Очная</div>
 						</div>
+					</div>
+					<div class="reception__item-wrapper">
 						<div class="reception__item">
-							<div class="reception__item-title">2</div>
+							<div class="reception__item-title">09.02.07</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Информационные системы и программирование
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Программист
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								Среднее<br> общее образование
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">3</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">
+								3 года 10мес/<br>
+								2 года 10 мес
+							</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
+						</div>
+					</div>
+					<div class="reception__item-wrapper">
+						<div class="reception__item">
+							<div class="reception__item-title">10.02.01</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Организация и технология защиты информации</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Техник по защите информации</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Среднее<br> общее образование</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">3</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">3 года 10 мес</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
+						</div>
+					</div>
+					<div class="reception__item-wrapper">
+						<div class="reception__item">
+							<div class="reception__item-title">09.02.07</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Информационные системы и программирование</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Программист/ разработчик веб приложений</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Среднее<br> общее образование</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">4</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">3 года 10 мес</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
+						</div>
+					</div>
+					<div class="reception__item-wrapper">
+						<div class="reception__item">
+							<div class="reception__item-title">10.02.01</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Организация и технология защиты информации</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Техник по защите информации</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Среднее<br> общее образование</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">4</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">3 года 10 мес</div>
+						</div>
+						<div class="reception__item">
+							<div class="reception__item-title">Очная</div>
 						</div>
 					</div>
 				</div>

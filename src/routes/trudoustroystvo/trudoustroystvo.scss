@@ -71,88 +71,15 @@
             * {
                 color: $main-color;
             }
-            &:nth-child(1) {
-                .employment__item-icon {
-                    background: url(/source/trending-wh.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-            }
-            &:nth-child(2) {
-                .employment__item-icon {
-                    background: url(/source/rezume-wh.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-            }
-            &:nth-child(3) {
-                .employment__item-icon {
-                    background: url(/source/search-wh.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-            }
-            &:nth-child(4) {
-                .employment__item-icon {
-                    background: url(/source/work-wh.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-            }
-            &:nth-child(5) {
-                .employment__item-icon {
-                    background: url(/source/article-wh.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-            }
-        }
-
-
-        &:nth-child(1) {
-            .employment__item-icon {
-                background: url(/source/trending.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-        }
-        &:nth-child(2) {
-            .employment__item-icon {
-                background: url(/source/rezume.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-        }
-        &:nth-child(3) {
-            .employment__item-icon {
-                background: url(/source/search.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-        }
-        &:nth-child(4) {
-            .employment__item-icon {
-                background: url(/source/work.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-        }
-        &:nth-child(5) {
-            .employment__item-icon {
-                background: url(/source/article.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
         }
     }
 
     &__item-icon {
-        width: 64px;
-        height: 64px;
+        font-size: 64px;
         margin-bottom: 20px;
+        color: $primary-color;
         @media (max-width: $m-point) {
-            width: 50px;
-            height: 50px;
+            font-size: 50px;
             margin-bottom: 10px;
         }
     }

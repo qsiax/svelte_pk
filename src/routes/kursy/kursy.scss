@@ -55,6 +55,9 @@
         bottom: 30px;
         display: flex;
         align-items: center;
+        @media (max-width: $m-point) {
+            display: none;
+        }
     }
 
     &__slide-arrow-prev {

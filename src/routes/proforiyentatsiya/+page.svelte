@@ -26,22 +26,22 @@
                     <div class="prof__title">Наши специальности</div>
                     <div class="prof__item-wrapper-special">
                         <div class="prof__item-special">
-                            <div class="prof__item-icon-special"></div>
+                            <div class="prof__item-icon-special icon-trending"></div>
                             <div class="prof__item-title-special">Специальность</div>
                             <div class="prof__item-text-special">Построение индивидуальной траектории развития<br> карьеры</div>
                         </div>
                         <div class="prof__item-special">
-                            <div class="prof__item-icon-special"></div>
+                            <div class="prof__item-icon-special icon-work"></div>
                             <div class="prof__item-title-special">Специальность</div>
                             <div class="prof__item-text-special">Построение индивидуальной траектории развития<br> карьеры</div>
                         </div>
                         <div class="prof__item-special">
-                            <div class="prof__item-icon-special"></div>
+                            <div class="prof__item-icon-special icon-subject"></div>
                             <div class="prof__item-title-special">Специальность</div>
                             <div class="prof__item-text-special">Построение индивидуальной траектории развития<br> карьеры</div>
                         </div>
                         <div class="prof__item-special">
-                            <div class="prof__item-icon-special"></div>
+                            <div class="prof__item-icon-special icon-article"></div>
                             <div class="prof__item-title-special">Специальность</div>
                             <div class="prof__item-text-special">Построение индивидуальной траектории развития<br> карьеры</div>
                         </div>

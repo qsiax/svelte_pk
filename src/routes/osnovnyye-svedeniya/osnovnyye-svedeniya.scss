@@ -150,9 +150,8 @@
 
     &__item {
         width: 574px;
-        height: 115px;
-        padding-left: 40px;
-        padding-right: 40px;
+        min-height: 115px;
+        padding: 30px 45px;
         display: flex;
         justify-content: space-between;
         align-items: center;

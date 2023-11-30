@@ -1,6 +1,6 @@
 <script>
     import Heading  from '../../layout/Heading.svelte';
-
+    import Document from '../../layout/pages/Document.svelte';
 
     let nameMap = 'Абитуриенту -';
     let namePage = 'Приказы о зачислении';
@@ -19,6 +19,15 @@
 />
 
 <section class="document">
+    <div class="document__container _container">
+        <div class="document__body">
+            <Document />
+        </div>
+    </div>
+</section>
+
+
+<!-- <section class="document">
 	<div class="document__container _container">
 		<div class="document__body">
 			<div class="document__head">
@@ -303,4 +312,4 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->

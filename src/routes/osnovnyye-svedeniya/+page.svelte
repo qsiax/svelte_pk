@@ -26,25 +26,31 @@
                 <div class="basic__block-information">
                     <div class="basic__block-wrapper">
                         <div class="basic__title">Основные сведения</div>
-                        <div class="basic__text"><span>Полное наименование /</span> Государственное бюджетное профессиональное образовательное учреждение Республика Саха (Якутия) "Покровский колледж"</div>
-                        <div class="basic__text"><span>Дата создания /</span> ...</div>
-                        <div class="basic__text"><span>Учредитель /</span> ...</div>
-                        <div class="basic__text"><span>Место нахождения /</span> ...</div>
+                        <div class="basic__text"><span>Полное наименование /</span> Государственное бюджетное профессиональное образовательное учреждение «Колледж цифровых технологий «АЙТЫЫН»</div>
+                        <div class="basic__text"><span>Дата создания /</span> 20 июня 2000года Распоряжением Первого Президента республики М.Е.Николаева № 178-РП </div>
+                        <div class="basic__text"><span>Учредитель /</span> 
+                            МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РС(Я) <br>
+                            ИНН 1435054525, КПП 143501001, ОГРН 1031402047170, ОКПО 00063087 <br>
+                            МИНИСТЕРСТВО ИМУЩЕСТВЕННЫХ И ЗЕМЕЛЬНЫХ ОТНОШЕНИЙ РС(Я)
+                            ИНН 1435027592, КПП 143501001
+                            ОГРН 1021401067995
+                            </div>
+                        <div class="basic__text"><span>Место нахождения /</span> Республика Саха (Якутия), Хангаласский улус, город Покровск, улица Братьев Ксенофонтовых,31</div>
                     </div>
                     <div class="basic__block-wrapper">
                         <div class="basic__head">График работы</div>
                         <div class="basic__box">
                             <div class="basic__box-title">
                                 Понедельник - Пятница<br>
-                                ...
+                                с 09:00ч до 18:00ч
                             </div>
                             <div class="basic__box-title">
                                 Обед<br>
-                                ...
+                                с 13:00ч до 14:00ч
                             </div>
                             <div class="basic__box-title">
                                 Выходной<br>
-                                ...
+                                Суббота и воскресенье
                             </div>
                         </div>
                     </div>
@@ -54,25 +60,25 @@
                     <div class="basic__item-body">
                         <div class="basic__item-wrapper">
                             <div class="basic__item">
-                                <div class="basic__item-title">Должность (Имя): +7 999 999-99-99</div>
+                                <div class="basic__item-title">Директор <br> (Сысолятин Сергей Иннокентьевич): <br> 8(41144)45-2-42, 43-8-67</div>
                                 <div class="basic__item-icon"></div>
                             </div>
                             <div class="basic__item">
-                                <div class="basic__item-title">Должность (Имя): +7 999 999-99-99</div>
+                                <div class="basic__item-title">Заместитель директора по УПР (Алексеева Мария Витальевна): 8(41144)45-2-42, 43-8-67</div>
                                 <div class="basic__item-icon"></div>
                             </div>
                             <div class="basic__item">
-                                <div class="basic__item-title">Должность (Имя): +7 999 999-99-99</div>
+                                <div class="basic__item-title">Заместитель директора по ВР <br> (Моисеева Мария Гаврильевна): 8(41144)45-2-42, 43-8-67</div>
                                 <div class="basic__item-icon"></div>
                             </div>
                         </div>
                         <div class="basic__item-wrapper">
                             <div class="basic__item">
-                                <div class="basic__item-title">Должность (Имя): +7 999 999-99-99</div>
+                                <div class="basic__item-title">Заместитель директора по ОВ (Шахурдин Егор Дмитриевич): 8(41144)45-2-42, 43-8-67</div>
                                 <div class="basic__item-icon"></div>
                             </div>
                             <div class="basic__item">
-                                <div class="basic__item-title">Должность (Имя): +7 999 999-99-99</div>
+                                <div class="basic__item-title">Заведующая общежитием <br> (Припузова Анна Валерьевна): 8(41144)45-2-42, 43-8-67</div>
                                 <div class="basic__item-icon"></div>
                             </div>
                             <div class="basic__item">

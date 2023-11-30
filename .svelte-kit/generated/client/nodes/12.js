@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/obrazovatelnaya-sreda/+page.svelte";
+export { default as component } from "../../../../src/routes/obrazovaniye/+page.svelte";

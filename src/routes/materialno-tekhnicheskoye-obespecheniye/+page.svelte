@@ -84,7 +84,7 @@
 				<div class="logistics__title block-heading">Подробнее об кабинетах</div>
 				<div class="logistics__item-wrapper">
 					<div class="logistics__item">
-						<div class="logistics__item-icon"></div>
+						<div class="logistics__item-icon icon-trending"></div>
 						<div class="logistics__item-title">
 							Индивидуальная траектория развития
 						</div>
@@ -93,7 +93,7 @@
 						</div>
 					</div>
 					<div class="logistics__item">
-						<div class="logistics__item-icon"></div>
+						<div class="logistics__item-icon icon-subject"></div>
 						<div class="logistics__item-title">
 							Резюме
 						</div>
@@ -103,7 +103,7 @@
 						</div>
 					</div>
 					<div class="logistics__item">
-						<div class="logistics__item-icon"></div>
+						<div class="logistics__item-icon icon-search"></div>
 						<div class="logistics__item-title">
 							Вакансии
 						</div>
@@ -113,13 +113,13 @@
 						</div>
 					</div>
 					<div class="logistics__item">
-						<div class="logistics__item-icon"></div>
+						<div class="logistics__item-icon icon-work"></div>
 						<div class="logistics__item-title">
 							Перечень работодателей
 						</div>
 					</div>
 					<div class="logistics__item">
-						<div class="logistics__item-icon"></div>
+						<div class="logistics__item-icon icon-article"></div>
 						<div class="logistics__item-title">
 							Полезные статьи
 						</div>

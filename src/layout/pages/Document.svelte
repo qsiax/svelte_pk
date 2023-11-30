@@ -80,6 +80,22 @@ function removeFrame() {
     frame.innerHTML = '';
     pdfId = '';
 }
+
+let selectInclude = '';
+
+  function selectIncludeCheck() {
+    selectInclude = 'include'
+  };
+
+  selectIncludeCheck()
+
+  let currentSelect = "";
+  let selectTitle = "год публикации";
+
+  let currentHead = "head-01";
+  let currentGroup = "group-01";
+
+  const praktikaDate = "22-23";
 </script>
 
 
@@ -105,25 +121,109 @@ function removeFrame() {
         </div>
     </div>
     <div class="document__head-wrapper">
-        <div class="__select include" data-state="">
-            <div class="__select__title" data-default="Option 0">год публикации</div>
-            <div class="__select__content">
-                <div class="__select_content-wrapper">
-                    <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect0" class="__select__label" data-date="2023" id="2023">2023</label>
-                    <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect1" class="__select__label" data-date="2022" id="2022">2022</label>
-                    <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect2" class="__select__label" data-date="2021" id="2021">2021</label>
-                    <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect3" class="__select__label" data-date="2020" id="2020">2020</label>
-                    <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect4" class="__select__label" data-date="2019" id="2019">2019</label>
-                    <input id="singleSelect5" class="__select__input" type="radio" name="singleSelect" />
-                    <label for="singleSelect5" class="__select__label" data-date="2018" id="2018">2018</label>
-                </div>
-            </div>
+        <div
+        class={currentSelect === "active" ? `__select ${selectInclude} active` : `__select ${selectInclude}`}        on:click={() => {
+          currentSelect === "active"
+            ? (currentSelect = "")
+            : (currentSelect = "active");
+        }}
+      >
+        <div class="__select__title" data-default="Option 0">{selectTitle}</div>
+        <div class="__select__content">
+          <div class="__select_content-wrapper">
+            <input
+              class="__select__input"
+              id="singleSelect0"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2023"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect0" class="__select__label">2023</label>
+            <input
+              id="singleSelect1"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2022"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect1" class="__select__label">2022</label>
+            <input
+              id="singleSelect2"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2021"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect2" class="__select__label">2021</label>
+            <input
+              id="singleSelect3"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2020"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect3" class="__select__label">2020</label>
+            <input
+              id="singleSelect4"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2019"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect4" class="__select__label">2019</label>
+            <input
+              id="singleSelect5"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2018"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect5" class="__select__label">2018</label>
+            <input
+              id="singleSelect6"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2017"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect6" class="__select__label">2017</label>
+            <input
+              id="singleSelect7"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2016"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect7" class="__select__label">2016</label>
+            <input
+              id="singleSelect8"
+              class="__select__input"
+              type="radio"
+              name="singleSelect"
+              on:click={() => {
+                (selectTitle = "2015"), (currentSelect = "");
+              }}
+            />
+            <label for="singleSelect8" class="__select__label">2015</label>
+          </div>
         </div>
+      </div>
     </div>
 </div>
 
