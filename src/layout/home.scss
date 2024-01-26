@@ -46,12 +46,10 @@
         }
 
         &:nth-child(1) {
-            background: url('/source/carousel-01.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         &:nth-child(2) {
-            background: url('/source/carousel-02.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -62,12 +60,10 @@
             border: 1px solid $text-secondary;
         }
         &:nth-child(4) {
-            background: url('/source/carousel-03.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         &:nth-child(5) {
-            background: url('/source/carousel-04.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -817,11 +813,9 @@
         
         &:nth-child(1) {
             .partners__item-img {
-                background: url('/source/partners-01.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-01.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -829,11 +823,9 @@
         }
         &:nth-child(2) {
             .partners__item-img {
-                background: url('/source/partners-02.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-02.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -841,11 +833,9 @@
         }
         &:nth-child(3) {
             .partners__item-img {
-                background: url('/source/partners-03.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-03.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -853,11 +843,9 @@
         }
         &:nth-child(4) {
             .partners__item-img {
-                background: url('/source/partners-04.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-04.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -865,11 +853,9 @@
         }
         &:nth-child(5) {
             .partners__item-img {
-                background: url('/source/partners-05.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-05.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -877,11 +863,9 @@
         }
         &:nth-child(6) {
             .partners__item-img {
-                background: url('/source/partners-06.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-06.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -889,11 +873,9 @@
         }
         &:nth-child(7) {
             .partners__item-img {
-                background: url('/source/partners-07.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 @media (max-width: $m-point) {
-                    background: url('/source/partners-mobile-07.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }

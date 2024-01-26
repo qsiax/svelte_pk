@@ -57,17 +57,25 @@
         .header__navigation-el {
             transition: .3s ease;
             &.menu_el_01 {
-                margin-bottom: 610px;
-                margin-top: 300px;
+                @media (max-width: $m-point) {
+                    margin-bottom: 610px;
+                    margin-top: 300px;
+                }
             }
             &.menu_el_02 {
-                margin-bottom: 214px;
+                @media (max-width: $m-point) {
+                    margin-bottom: 214px;
+                }
             }
             &.menu_el_03 {
-                margin-bottom: 214px;
+                @media (max-width: $m-point) {
+                    margin-bottom: 214px;
+                }
             }
             &.menu_el_04 {
-                margin-bottom: 78px;
+                @media (max-width: $m-point) {
+                    margin-bottom: 78px;
+                }
             }
         }
         li {
@@ -107,12 +115,14 @@
                 .header__navigation-block {
                     @media (max-width: $m-point) {
                         &.menuitem_active_01 {
-                            height: auto;
-                            visibility: visible;
-                            opacity: 1;
-                            overflow-y: scroll;
-                            margin-top: 10px;
-                            margin-bottom: 10px;
+                            @media (max-width: $m-point) {
+                                height: auto;
+                                visibility: visible;
+                                opacity: 1;
+                                overflow-y: scroll;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
                         }
                     }
                 }
@@ -127,12 +137,14 @@
                         height: 0;
                         bottom: 0;
                         &.menuitem_active_02 {
-                            height: auto;
-                            visibility: visible;
-                            opacity: 1;
-                            overflow: hidden;
-                            margin-top: 10px;
-                            margin-bottom: 10px;
+                            @media (max-width: $m-point) {
+                                height: auto;
+                                visibility: visible;
+                                opacity: 1;
+                                overflow: hidden;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
                         }
                     }
                 }
@@ -147,13 +159,15 @@
                         height: 0;
                         bottom: 0;
                         &.menuitem_active_03 {
-                            position: relative;
-                            height: auto;
-                            visibility: visible;
-                            opacity: 1;
-                            overflow: hidden;
-                            margin-top: 10px;
-                            margin-bottom: 10px;
+                            @media (max-width: $m-point) {
+                                position: relative;
+                                height: auto;
+                                visibility: visible;
+                                opacity: 1;
+                                overflow: hidden;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
                         }
                     }
                 }
@@ -168,12 +182,14 @@
                         bottom: 0;
                         height: 0;
                         &.menuitem_active_04 {
-                            height: auto;
-                            visibility: visible;
-                            opacity: 1;
-                            overflow: hidden;
-                            margin-top: 10px;
-                            margin-bottom: 10px;
+                            @media (max-width: $m-point) {
+                                height: auto;
+                                visibility: visible;
+                                opacity: 1;
+                                overflow: hidden;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
                         }
                     }
                 }

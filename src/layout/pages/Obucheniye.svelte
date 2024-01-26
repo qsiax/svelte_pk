@@ -98,7 +98,8 @@
       Занятия
     </button>
   </div>
-  <div
+  <div class="study__head-buttons-wrapper">
+    <div
     class={currentSelect === "active" ? `__select ${selectInclude} active` : `__select ${selectInclude}`}
     on:click={() => {
       currentSelect === "active"
@@ -204,6 +205,7 @@
   </div>
 
   <a href="/archive" class={currentHead === 'head-04' ? '__archive active' : '__archive'}>Архив</a>
+  </div>
 </div>
 
 <div class="study__content-wrapper">
@@ -215,25 +217,30 @@
     <div class="study__title">Порядок выполнения диплома</div>
     <div class="study__item-wrapper">
       <div class="study__item-block">
-        <div class="study__item">
-          <div class="study__item-title">Рекомендации выполнения диплома</div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Рекомендации по оформлению презентации
+
+          <div class="study__item-mb-block">
+            <div class="study__item">
+              <div class="study__item-title">Рекомендации выполнения диплома</div>
+              <div class="study__item-icon _icon-download" />
+            </div>
+            <div class="study__item">
+              <div class="study__item-title">
+                Рекомендации по оформлению презентации
+              </div>
+              <div class="study__item-icon _icon-download" />
+            </div>
           </div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item">
-          <div class="study__item-title">Нормконтроль</div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item-hidden" />
-        <div class="study__item">
-          <div class="study__item-title">Титульный лист шаблон</div>
-          <div class="study__item-icon _icon-download" />
-        </div>
+          <div class="study__item-mb-block">
+            <div class="study__item">
+              <div class="study__item-title">Нормконтроль</div>
+              <div class="study__item-icon _icon-download" />
+            </div>
+            <div class="study__item-hidden" />
+            <div class="study__item">
+              <div class="study__item-title">Титульный лист шаблон</div>
+              <div class="study__item-icon _icon-download" />
+            </div>
+          </div>
       </div>
       <div class="study__item-block">
         <div class="study__item">
@@ -262,7 +269,7 @@
         <div class="study__item-long">
           <div class="study__item-title">
             Годовой план спортивно-оздоровительной работы ГБПОУ «Покровский
-            колледж» на 2022—2023 учебный год)
+            колледж» на 2022—2023 учебный год
           </div>
           <div class="study__item-prepods">
             Руководитель физического воспитания: <span
@@ -272,44 +279,50 @@
           </div>
           <div class="study__item-icon _icon-download" />
         </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Протокол №5 педагогического собрания
+        <div class="study__item-mb-block">
+          <div class="study__item">
+            <div class="study__item-title">
+              Протокол №5 педагогического собрания
+            </div>
+            <div class="study__item-icon _icon-download" />
           </div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Лицензия Серия 14Л 01 №0000756, рег. № 0377 от 19.11. 2014 г.
+          <div class="study__item">
+            <div class="study__item-title">
+              Лицензия Серия 14Л 01 №0000756, рег. № 0377 от 19.11. 2014 г.
+            </div>
+            <div class="study__item-icon _icon-download" />
           </div>
-          <div class="study__item-icon _icon-download" />
         </div>
       </div>
       <div class="study__item-block">
-        <div class="study__item">
-          <div class="study__item-title">
-            План работы студенческого спортивного клуба «Дархан» на 2022-23
+        <div class="study__item-mb-block">
+          <div class="study__item">
+            <div class="study__item-title">
+              План работы студенческого спортивного клуба «Дархан» на 2022-23
+            </div>
+            <div class="study__item-icon _icon-download" />
           </div>
-          <div class="study__item-icon _icon-download" />
+          <div class="study__item">
+            <div class="study__item-title">
+              Расписание работы спортивных секций в МУ «Дворец спорта» на 2022–23
+            </div>
+            <div class="study__item-icon _icon-download" />
+          </div>
         </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Расписание работы спортивных секций в МУ «Дворец спорта» на 2022–23
+        <div class="study__item-mb-block">
+          <div class="study__item">
+            <div class="study__item-title">
+              Приказ № 104-п о создании ССК «Дархан» от 08 июня 2022 г.
+            </div>
+            <div class="study__item-icon _icon-download" />
           </div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Приказ № 104-п о создании ССК «Дархан» от 08 июня 2022 г.
+          <div class="study__item">
+            <div class="study__item-title">
+              Положение о спортивном клубе «Дархан» ГБПОУ РС (Я) «Покровский
+              колледж»
+            </div>
+            <div class="study__item-icon _icon-download" />
           </div>
-          <div class="study__item-icon _icon-download" />
-        </div>
-        <div class="study__item">
-          <div class="study__item-title">
-            Положение о спортивном клубе «Дархан» ГБПОУ РС (Я) «Покровский
-            колледж»
-          </div>
-          <div class="study__item-icon _icon-download" />
         </div>
         <div class="study__item-next">
           <div class="study__item-title">ПОДРОБНЕЕ</div>
@@ -327,7 +340,6 @@
     <div class="study__item-content-wrapper swiper">
       <div class="study__item-content swiper-wrapper">
         <div class="study__item-wrapper swiper-slide">
-          <div class="study__item-block">
             <div class="study__item">
               <div class="study__item-title">
                 График зимней сессии 2022-23 учебного года
@@ -346,8 +358,6 @@
               </div>
               <div class="study__item-icon _icon-download" />
             </div>
-          </div>
-          <div class="study__item-block">
             <div class="study__item">
               <div class="study__item-title">
                 График летней сессии 2018—2019 учебного года
@@ -366,10 +376,8 @@
               </div>
               <div class="study__item-icon _icon-download" />
             </div>
-          </div>
         </div>
         <div class="study__item-wrapper swiper-slide">
-          <div class="study__item-block">
             <div class="study__item">
               <div class="study__item-title">
                 График зимней сессии 2019-20 учебного года
@@ -388,8 +396,6 @@
               </div>
               <div class="study__item-icon _icon-download" />
             </div>
-          </div>
-          <div class="study__item-block">
             <div class="study__item">
               <div class="study__item-title">
                 График летней сессии 2018—2019 учебного года
@@ -408,7 +414,6 @@
               </div>
               <div class="study__item-icon _icon-download" />
             </div>
-          </div>
         </div>
       </div>
     </div>

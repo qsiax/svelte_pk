@@ -67,14 +67,14 @@ let frame;
 
 let pdfId = '';
 
-function makeFrame() {
-    if(pdfId === '') {
-        frame.innerHTML = 'Файл не найден';
-    } else {
-        let pdfUrl = `/src/lib/document/${pdfId}.pdf#toolbar=1&navpanes=0&scrollbar=0`
-        frame.innerHTML = `<iframe src=${pdfUrl} frameborder="0" id="frame"></iframe>`;
-    }
-}
+// function makeFrame() {
+//     if(pdfId === '') {
+//         frame.innerHTML = 'Файл не найден';
+//     } else {
+//         let pdfUrl = `/src/lib/document/${pdfId}.pdf#toolbar=1&navpanes=0&scrollbar=0`
+//         frame.innerHTML = `<iframe src=${pdfUrl} frameborder="0" id="frame"></iframe>`;
+//     }
+// }
 
 function removeFrame() {
     frame.innerHTML = '';

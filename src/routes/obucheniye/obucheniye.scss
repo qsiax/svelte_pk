@@ -7,16 +7,24 @@
 
     &__body {
         margin-bottom: 1090px;
+        @media (max-width: $m-point) {
+            margin-bottom: 918px;
+        }
     }
 
     &__head {
         display: flex;
         justify-content: space-between;
         margin-bottom: 80px;
+        @media (max-width: $m-point) {
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
     }
 
     &__head-block {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__head-item {
@@ -40,6 +48,22 @@
             color: $main-color;
             border: 1px solid $primary-color;
         }
+        @media (max-width: $m-point) {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+            margin-right: 10px;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__head-buttons-wrapper {
+        position: relative;
+        @media (max-width: $m-point) {
+            height: 50px;
+        }
     }
 
     &__content-wrapper {
@@ -60,6 +84,14 @@
                         .study__item {
                             width: 870px;
                             height: 300px;
+                            @media (max-width: $m-point) {
+                                width: 100%;
+                                height: 155px;
+                                margin-right: 10px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
                         }
                     }
                 }
@@ -67,10 +99,28 @@
         }
         &:nth-child(3) {
             .study__item-wrapper {
+                @media (max-width: $m-point) {
+                    margin-right: 7%;
+                    justify-content: space-between;
+                }
                 .study__item-block {
+                    @media (max-width: $m-point) {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
                     .study__item {
                         width: 573px;
                         height: 300px;
+                        @media (max-width: $m-point) {
+                            height: 155px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-bottom: 10px;
+                            width: 49%;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
                         .study__item-title {
                             font-weight: 400;
                             font-size: 24px;
@@ -78,6 +128,9 @@
                             letter-spacing: -0.03em;
                             text-transform: uppercase;
                             max-width: 434px;
+                            @media (max-width: $m-point) {
+                                font-size: 14px;
+                            }
                         }
                     }
                 }
@@ -96,6 +149,25 @@
                 }
             }
         }
+        @media (max-width: $m-point) {
+            &:nth-child(2) {
+                .study__item-wrapper {
+                    .study__item-block:nth-child(1) {
+                        flex-direction: column;
+                    }
+                    .study__item-block:nth-child(2) {
+                        flex-direction: column;
+                    }
+                    .study__item-mb-block {
+                        flex-direction: row;
+                        margin-right: 0;
+                        .study__item:nth-child(1) {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     &__title {
@@ -104,16 +176,32 @@
         line-height: 100%;
         letter-spacing: -0.03em;
         margin-bottom: 40px;
+        @media (max-width: $m-point) {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 100%;
+            margin-bottom: 10px;
+            word-wrap: break-word;
+            width: 90%;
+        }
     }
 
     &__item-wrapper {
-    }
+        @media (max-width: $m-point) {
+            max-width: 93%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    } 
 
     &__item-block {
         display: flex;
         justify-content: space-between;
         &:first-child {
             margin-bottom: 20px;
+            @media (max-width: $m-point) {
+                margin-bottom: 0px;
+            }
         }
     }
 
@@ -131,6 +219,42 @@
             border: $primary-color;
             * {
                 color: $main-color;
+            }
+        }
+        @media (max-width: $m-point) {
+            height: 155px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 49%;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__item-mb-wrapper {
+        display: flex;
+    }
+
+    &__item-mb-block {
+        display: flex;
+        .study__item {
+            margin-right: 20px;
+        }
+        &:last-child {
+            .study__item {
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        @media (max-width: $m-point) {
+            flex-direction: column;
+            .study__item {
+                margin-bottom: 10px;
+                width: 100%;
+                margin-right: 0;
+            }
+            &:first-child {
+                margin-right: 10px;
             }
         }
     }
@@ -151,6 +275,13 @@
                 color: $main-color;
             }
         }
+        @media (max-width: $m-point) {
+            height: 155px;
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
     }
 
     &__item-next {
@@ -166,6 +297,9 @@
         justify-content: center;
         background: $primary-color;
         color: $main-color;
+        @media (max-width: $m-point) {
+            display: none;
+        }
     }
 
     &__item-title {
@@ -174,6 +308,11 @@
         line-height: 120%;
         letter-spacing: -0.03em;
         max-width: 655px;
+        @media (max-width: $m-point) {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 120%;
+        }
     }
 
     &__item-prepods {
@@ -186,6 +325,13 @@
         span {
             color: $text;
         }
+        @media (max-width: $m-point) {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 120%;
+            margin-top: 27px;
+            max-width: 246px;
+        }
     }
 
     &__item-icon {
@@ -193,7 +339,12 @@
         bottom: 40px;
         right: 40px;
         font-size: 48px;
-        color: $primary-color;
+        color: $primary-color;       
+        @media (max-width: $m-point) {
+            font-size: 24px;
+            bottom: 15px;
+            right: 15px;
+        }
     }
 
     &__item-hidden {
@@ -201,6 +352,10 @@
         height: 300px;
         visibility: hidden;
         opacity: 0;
+        margin-right: 20px;
+        @media (max-width: $m-point) {
+            display: none;
+        }
     }
 
     &__item-block-praktika {
@@ -391,6 +546,11 @@
         right: 0;
         display: flex;
         align-items: center;
+        @media (max-width: $m-point) {
+            justify-content: space-between;
+            width: 92%;
+            right: 8%;
+        }
     }
 
     &__session-arrow-prev {
@@ -400,6 +560,9 @@
         margin-right: 40px;
         cursor: pointer;
         transition: .3s ease;
+        @media (max-width: $m-point) {
+            font-size: 32px;
+        }
     }
 
     &__session-arrow-next {
@@ -408,6 +571,9 @@
         transform: rotate(-90deg);
         cursor: pointer;
         transition: .3s ease;
+        @media (max-width: $m-point) {
+            font-size: 32px;
+        }
     }
 
     .swiper-pagination-bullet {
